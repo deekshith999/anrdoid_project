@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="547dp"
+        android:layout_below="@+id/city_tv"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/report_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:text="Laoding!!!"
+
+
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+    </ScrollView>
+
+    <TextView
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:id="@+id/title_tv"
+        android:layout_width="268dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="83dp"
+        android:text="Weather_Report"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:id="@+id/city_tv"
+        android:layout_width="195dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/title_tv"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="219dp"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
